@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "conways game of life",
+            "type": "python",
+            "request": "launch",
+            "program": "conway.py",
+            "console": "integratedTerminal",
+            "args": ["--life_file=\"cells.life\"", "--number_of_lifecycles_to_calculate=150", "--output_file=\"lifecycles_calculated.txt\""]
+        }
+    ]
+}
